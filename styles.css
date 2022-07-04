@@ -141,10 +141,10 @@ footer{
     justify-content: center;
 }
 .footerLeft{
-    width:50%;
+    width:20%;
 }
 .footerRight{
-    width:50%;
+    width:70%;
 }
 .footerRight{
     display:flex;
