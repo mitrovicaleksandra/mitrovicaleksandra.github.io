@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
-    background: #f7f7ef;
+    background: #FBEEE6;
     color: #1e1e17;
 }
 
@@ -50,16 +50,16 @@ nav a{
     margin-top: 5px;
 }
 .menu a {
-color: #734B5E;
-text-decoration: none;
+color: #9d8189;
+text-decoration: none; ow
 }
 .footerEmail a:hover,
 .menu a:hover,
 .menu a:focus{
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #9d8189;
 }
 .selected {
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #9d8189;
 }
 main{
     margin-bottom:50px;
@@ -174,7 +174,7 @@ footer h4::after{
     padding: 0.5em 0.5em;
     
 	border-radius: 10px;
-    border: 2px solid #734B5E;
+    border: 2px solid #9d8189;
     opacity:0.5;
     cursor: pointer;
 
@@ -182,7 +182,7 @@ footer h4::after{
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #734B5E;
+    color: #9d8189;
 
 	background-color: none;
 	position: relative;
@@ -204,21 +204,21 @@ footer h4::after{
     margin-top: 15px;
     padding: 0.5em;
 
-    background-color: #734B5E;
+    background-color: #9d8189;
     color: white;    
     opacity:0.5;
     cursor: pointer;
 }
 .footerButton:hover,
 .footerButton:focus{
-    background-color: #f7f7ef;
-    color: #734B5E;
-    border-bottom: 0.2rem solid #734B5E;
+    background-color: #FBEEE6;
+    color: #9d8189;
+    border-bottom: 0.2rem solid #9d8189;
 }
 .button:focus {
     outline: none;
     color: #fff;
-    background-color: #734B5E;
+    background-color: #9d8189;
 }
 
 /*--------------------Main Page ------------------*/
@@ -256,7 +256,7 @@ footer h4::after{
 /* ---------------- Project Page ---------------- */
 /* ---------------------------------------------- */
 .projectType{
-    background-color: #e0e0d0;
+    background-color:  #ffdab9;
     border-radius: 25px;
     padding: 2px 25px;
     margin-top: 15px;
@@ -275,7 +275,7 @@ footer h4::after{
 }
     .project a:hover,
     .project a:focus{
-        border-bottom: 0.2rem solid #734B5E;
+        border-bottom: 0.2rem solid #9d8189;
     }
 .project p{
     font-size: 1.5rem;
@@ -308,16 +308,16 @@ footer h4::after{
 }
 .contactEmail,
 .contactEmail{
-    background-color: #734B5E;
+    background-color: #9d8189;
     color: white;
     margin: 0 5px 0 0;
     padding: 0 5px;        
 }  
 .contactEmail:hover,
 .contactEmail:focus{
-    background-color: #f7f7ef;
-    color: #734B5E;
-    border-bottom: 0.2rem solid #734B5E;
+    background-color: #FBEEE6;
+    color: #9d8189;
+    border-bottom: 0.2rem solid #9d8189;
 }
 /* -----------------About Specific--------------- */  
 /* ---------------------------------------------- */
@@ -337,7 +337,7 @@ footer h4::after{
 }
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #9d8189;
 }
 .skills{
     display:flex;
@@ -380,18 +380,146 @@ footer h4::after{
 }
 .projectLink a,
 .aboutInfo a{
-    background-color: #734B5E;
+    background-color: #9d8189;
     color: white;
     margin: 0 5px 0 0;
-    padding: 0 5px;        
+    padding: 0 5px;        #FBEEE6
 }   
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    background-color: #f7f7ef;
-    color: #734B5E;
+    background-color: #FBEEE6;
+    color: #9d8189;
 }
 .projectLink a:hover,
 .projectLink a:focus{
     background-color: #fdfdfc;
-    color: #734B5E;
+    color: #9d8189;
 }
+/*----------------------Projects------------------*/
+/* ---------------------------------------------- */
+
+/*---- Back to Projects ----*/
+.back{
+    width:100%;
+    display:flex;
+    align-content:center;    
+}
+.back p{
+    color: #1e1e17;
+}
+.back p:hover,
+.back p:focus{
+    color: #9d8189;
+}
+
+
+/*--------------------MEDIA -----------------*/
+/* ---------------------------------------------- */
+@media (max-width: 1000px) {
+    /*---- Main Page ----*/
+    .blurb {
+        text-align: center;
+        width:100%;
+        height:50vh;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .imgContainer{
+        width: 300px;
+        height: 50vh;
+        
+    }
+
+    /*--- About Section ---*/
+    .about{
+        flex-direction: column-reverse;
+    }
+    .aboutPicture{
+        margin-right:0;
+        display:none;
+    }
+    .aboutInfo{
+        width:100%;
+    }
+    .skillset{
+        width:100%;
+    }
+    .skills{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    /*---- Project Specific ----*/  
+    .project{
+        flex-direction: column;
+    }
+    .projectDescription, 
+    .projectPicture{
+        width: 100%;
+        height:50%;
+        margin-left:0;
+        margin-bottom: 10px;
+    }
+    .footerLeft{
+        width:50%;
+    }
+    .footerRight{
+        width:50%;
+    }
+}
+
+@media (max-width: 600px) {
+ /*-- main ---*/
+    header{
+        height:100%
+    }
+    .nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu{
+        justify-content: space-between;
+        height: 40px;
+    }
+    .menu a{
+        background-color: #9d8189;
+        color: white;
+        margin: 0 5px 0 0;        
+    }   
+    .menu a:hover,
+    .menu a:focus{
+        background-color: #FBEEE6;
+        color: #9d8189;
+    }
+    .menu #selectedMobile{
+        background-color: #FBEEE6;
+        color: #9d8189;
+    }
+    .imgLanding{
+        display:hi;
+    }
+    .indexDown{
+        display:none;
+    }
+
+/*---- Footer ----*/
+    .footerContent{
+        height:250px;
+    }
+    .footerContent h4,
+    .footerContent a{
+        font-size:1.5rem;
+    }
+    .button{
+        margin-top: 5px;
+        padding: 0.50em 0.25em;
+    }
+    .footerContent h4{
+        margin: 20px 0 5px 0;
+    }
+    .footerContent{
+        flex-direction: column
+    }
