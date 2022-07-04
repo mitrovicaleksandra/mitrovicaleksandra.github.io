@@ -577,12 +577,7 @@ footer h4::after{
         flex-direction:column;
         align-items:center;
     }
-	 .footerLeft{
-        width:50%;
-    }
-    .footerRight{
-        width:50%;
-    }
+	
 
     /*---- Project Specific ----*/  
     .project{
