@@ -1,3 +1,25 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+        
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+        
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+        
+*, *:before, *:after {box-sizing: inherit}
+        
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+/* -------------- CSS starts here ----------------*/
+/* main colours:  #734B5E; #1e1e17; #f7f7ef; */
+
+/* ------------------ General ------------------- */
+/* ---------------------------------------------- */
+
+
 html {
     font-size: 62.5%;
 }
@@ -5,7 +27,7 @@ html {
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
-    background: #FBEEE6;
+    background: #f7f7ef;
     color: #1e1e17;
 }
 
@@ -50,16 +72,16 @@ nav a{
     margin-top: 5px;
 }
 .menu a {
-color: #9d8189;
-text-decoration: none; ow
+color: #734B5E;
+text-decoration: none;
 }
 .footerEmail a:hover,
 .menu a:hover,
 .menu a:focus{
-    border-bottom: 0.2rem solid #9d8189;
+    border-bottom: 0.2rem solid #734B5E;
 }
 .selected {
-    border-bottom: 0.2rem solid #9d8189;
+    border-bottom: 0.2rem solid #734B5E;
 }
 main{
     margin-bottom:50px;
@@ -174,7 +196,7 @@ footer h4::after{
     padding: 0.5em 0.5em;
     
 	border-radius: 10px;
-    border: 2px solid #9d8189;
+    border: 2px solid #734B5E;
     opacity:0.5;
     cursor: pointer;
 
@@ -182,7 +204,7 @@ footer h4::after{
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #9d8189;
+    color: #734B5E;
 
 	background-color: none;
 	position: relative;
@@ -204,21 +226,21 @@ footer h4::after{
     margin-top: 15px;
     padding: 0.5em;
 
-    background-color: #9d8189;
+    background-color: #734B5E;
     color: white;    
     opacity:0.5;
     cursor: pointer;
 }
 .footerButton:hover,
 .footerButton:focus{
-    background-color: #FBEEE6;
-    color: #9d8189;
-    border-bottom: 0.2rem solid #9d8189;
+    background-color: #f7f7ef;
+    color: #734B5E;
+    border-bottom: 0.2rem solid #734B5E;
 }
 .button:focus {
     outline: none;
     color: #fff;
-    background-color: #9d8189;
+    background-color: #734B5E;
 }
 
 /*--------------------Main Page ------------------*/
@@ -256,7 +278,7 @@ footer h4::after{
 /* ---------------- Project Page ---------------- */
 /* ---------------------------------------------- */
 .projectType{
-    background-color:  #ffdab9;
+    background-color: #e0e0d0;
     border-radius: 25px;
     padding: 2px 25px;
     margin-top: 15px;
@@ -275,7 +297,7 @@ footer h4::after{
 }
     .project a:hover,
     .project a:focus{
-        border-bottom: 0.2rem solid #9d8189;
+        border-bottom: 0.2rem solid #734B5E;
     }
 .project p{
     font-size: 1.5rem;
@@ -308,16 +330,16 @@ footer h4::after{
 }
 .contactEmail,
 .contactEmail{
-    background-color: #9d8189;
+    background-color: #734B5E;
     color: white;
     margin: 0 5px 0 0;
     padding: 0 5px;        
 }  
 .contactEmail:hover,
 .contactEmail:focus{
-    background-color: #FBEEE6;
-    color: #9d8189;
-    border-bottom: 0.2rem solid #9d8189;
+    background-color: #f7f7ef;
+    color: #734B5E;
+    border-bottom: 0.2rem solid #734B5E;
 }
 /* -----------------About Specific--------------- */  
 /* ---------------------------------------------- */
@@ -337,7 +359,7 @@ footer h4::after{
 }
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    border-bottom: 0.2rem solid #9d8189;
+    border-bottom: 0.2rem solid #734B5E;
 }
 .skills{
     display:flex;
@@ -380,20 +402,20 @@ footer h4::after{
 }
 .projectLink a,
 .aboutInfo a{
-    background-color: #9d8189;
+    background-color: #734B5E;
     color: white;
     margin: 0 5px 0 0;
-    padding: 0 5px;        #FBEEE6
+    padding: 0 5px;        
 }   
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    background-color: #FBEEE6;
-    color: #9d8189;
+    background-color: #f7f7ef;
+    color: #734B5E;
 }
 .projectLink a:hover,
 .projectLink a:focus{
     background-color: #fdfdfc;
-    color: #9d8189;
+    color: #734B5E;
 }
 /*----------------------Projects------------------*/
 /* ---------------------------------------------- */
@@ -409,11 +431,115 @@ footer h4::after{
 }
 .back p:hover,
 .back p:focus{
-    color: #9d8189;
+    color: #734B5E;
+}
+/*----- Section UI ----*/
+
+.previewImg{
+    width:50%;
+}
+.projectGrey,
+.projectDescription{
+    background-color: #ebebe5;
+}
+.projectPreview{
+    font-weight: 100;
+}
+.projectPreview h4{
+    font-size:1.3rem;
+}
+.projectPreview h1{
+    margin-left:0;
+}
+.projectPreview section{
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+.projectHero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectMLS{
+    display:flex;
 }
 
+/*---- Research ----*/
+.research,
+.researchMarket{
+    display:flex;
+}
+.researchBlurb,
+.projectBlurb{
+    width:50%;
+}
+.surveyPicture,
+.projectImg{
+    width:50%;
+    display:flex;
+    align-items: center;
+    padding-left:5%;
+}
+.surveyPicture img,
+.projectImg img{
+    width:100%;
+}
 
-/*--------------------MEDIA -----------------*/
+/*---- Ideation ----*/
+.ideation,
+.ideationImg{
+    display:flex;
+    justify-content: space-around;
+}
+.ideation img{
+    width:45%;
+    object-fit: contain;
+}
+.ideationMLS img{
+    width:75%;
+    object-fit: contain;
+}
+
+/*---- Prototype ----*/
+.prototype{
+    display:flex;
+    flex-direction:column;
+    align-items: space-around;
+}
+.prototypePic img{
+    width: calc((100% / 2) - 10px)
+}
+.prototypePic p{
+    padding:0 40px;
+}
+.prototypePic{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/*---- Final Design ----*/
+.takeaway span{
+    font-weight: 500;
+}
+.finalDesign a{
+    background-color: #734B5E;
+    color: white;
+    margin: 0 5px 0 0;
+    padding: 0 5px;        
+}   
+.finalDesign a:hover,
+.finalDesign a:focus{
+    background-color: #ebebe5;
+    color: #734B5E;
+    border-bottom: 0.2rem solid #734B5E;
+}
+.takeaway img{
+    width:100%;
+}
+
+/*--------------------MEDIA QUERY-----------------*/
 /* ---------------------------------------------- */
 @media (max-width: 1000px) {
     /*---- Main Page ----*/
@@ -456,7 +582,7 @@ footer h4::after{
     .project{
         flex-direction: column;
     }
-    .projectDescription, 
+    .projectDiscription, 
     .projectPicture{
         width: 100%;
         height:50%;
@@ -485,18 +611,18 @@ footer h4::after{
         height: 40px;
     }
     .menu a{
-        background-color: #9d8189;
+        background-color: #734B5E;
         color: white;
         margin: 0 5px 0 0;        
     }   
     .menu a:hover,
     .menu a:focus{
-        background-color: #FBEEE6;
-        color: #9d8189;
+        background-color: #f7f7ef;
+        color: #734B5E;
     }
     .menu #selectedMobile{
-        background-color: #FBEEE6;
-        color: #9d8189;
+        background-color: #f7f7ef;
+        color: #734B5E;
     }
     .imgLanding{
         display:hi;
@@ -523,3 +649,42 @@ footer h4::after{
     .footerContent{
         flex-direction: column
     }
+
+/*---- project-mv and -mls ----*/
+    .back p{
+        margin-top:10px;
+    }
+    .research,
+    .researchMarket{
+        flex-direction: column;
+    }
+    .researchBlurb,
+    .projectBlurb{
+        width: 100%;
+    }
+    .surveyPicture,
+    .projectImg{
+        align-items:center;
+        width:100%;
+    }
+    .ideation,
+    .projectMLS{
+        flex-direction: column;
+        align-items:center;
+    }
+    .ideation img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .prototypeReverse{
+        flex-direction: column-reverse;
+    }
+    .prototypeMobile{
+        flex-direction: column;
+    }
+    .prototypePic p,
+    .prototypePic img{
+        width:100%;
+        padding:0;
+    }
+}
