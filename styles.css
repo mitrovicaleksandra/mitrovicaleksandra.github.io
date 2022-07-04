@@ -577,6 +577,12 @@ footer h4::after{
         flex-direction:column;
         align-items:center;
     }
+	 .footerLeft{
+        width:50%;
+    }
+    .footerRight{
+        width:50%;
+    }
 
     /*---- Project Specific ----*/  
     .project{
@@ -650,41 +656,3 @@ footer h4::after{
         flex-direction: column
     }
 
-/*---- project-mv and -mls ----*/
-    .back p{
-        margin-top:10px;
-    }
-    .research,
-    .researchMarket{
-        flex-direction: column;
-    }
-    .researchBlurb,
-    .projectBlurb{
-        width: 100%;
-    }
-    .surveyPicture,
-    .projectImg{
-        align-items:center;
-        width:100%;
-    }
-    .ideation,
-    .projectMLS{
-        flex-direction: column;
-        align-items:center;
-    }
-    .ideation img{
-        width: 100%;
-        margin-top: 10px;
-    }
-    .prototypeReverse{
-        flex-direction: column-reverse;
-    }
-    .prototypeMobile{
-        flex-direction: column;
-    }
-    .prototypePic p,
-    .prototypePic img{
-        width:100%;
-        padding:0;
-    }
-}
