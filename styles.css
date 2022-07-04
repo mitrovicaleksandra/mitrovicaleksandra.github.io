@@ -591,10 +591,10 @@ footer h4::after{
         margin-bottom: 10px;
     }
     .footerLeft{
-        width:50%;
+        width:35%;
     }
     .footerRight{
-        width:50%;
+        width:65%;
     }
 }
 
