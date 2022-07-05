@@ -371,7 +371,7 @@ footer h4::after{
     text-align: center;
 }
 .skillType{
-    color: #868644;
+    color: #49669F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -381,7 +381,7 @@ footer h4::after{
     display: block;
     width: 50px; 
     padding-top: 5px; 
-    border-bottom: 4px solid #868644;
+    border-bottom: 4px solid #49669F;
 }
 .about li,
 .skills li{
