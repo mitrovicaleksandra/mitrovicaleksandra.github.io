@@ -14,7 +14,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 }
 
 /* -------------- CSS starts here ----------------*/
-/* main colours:  #734B5E; #1e1e17; #f7f7ef; */
+/* main colours:  #734B5E; #1e1e17; #EFEFEF; */
 
 /* ------------------ General ------------------- */
 /* ---------------------------------------------- */
@@ -27,7 +27,7 @@ html {
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
-    background: #f7f7ef;
+    background: #EFEFEF;
     color: #1e1e17;
 }
 
@@ -233,7 +233,7 @@ footer h4::after{
 }
 .footerButton:hover,
 .footerButton:focus{
-    background-color: #f7f7ef;
+    background-color: #EFEFEF;
     color: #734B5E;
     border-bottom: 0.2rem solid #734B5E;
 }
@@ -338,7 +338,7 @@ footer h4::after{
 }  
 .contactEmail:hover,
 .contactEmail:focus{
-    background-color: #f7f7ef;
+    background-color: #EFEFEF;
     color: #734B5E;
     border-bottom: 0.2rem solid #734B5E;
 }
@@ -410,7 +410,7 @@ footer h4::after{
 }   
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    background-color: #f7f7ef;
+    background-color: #EFEFEF;
     color: #734B5E;
 }
 .projectLink a:hover,
@@ -498,11 +498,11 @@ footer h4::after{
     }   
     .menu a:hover,
     .menu a:focus{
-        background-color: #f7f7ef;
+        background-color: #EFEFEF;
         color: #734B5E;
     }
     .menu #selectedMobile{
-        background-color: #f7f7ef;
+        background-color: #EFEFEF;
         color: #734B5E;
     }
     .imgLanding{
