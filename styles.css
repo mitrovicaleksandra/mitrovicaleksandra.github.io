@@ -14,7 +14,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 }
 
 /* -------------- CSS starts here ----------------*/
-/* main colours:  #734B5E; #1e1e17; #EFEFEF; */
+/* main colours:  #49669F; #1e1e17; #EFEFEF; */
 
 /* ------------------ General ------------------- */
 /* ---------------------------------------------- */
@@ -72,16 +72,16 @@ nav a{
     margin-top: 5px;
 }
 .menu a {
-color: #734B5E;
+color: #49669F;
 text-decoration: none;
 }
 .footerEmail a:hover,
 .menu a:hover,
 .menu a:focus{
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #49669F;
 }
 .selected {
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #49669F;
 }
 main{
     margin-bottom:50px;
@@ -196,7 +196,7 @@ footer h4::after{
     padding: 0.5em 0.5em;
     
 	border-radius: 10px;
-    border: 2px solid #734B5E;
+    border: 2px solid #49669F;
     opacity:0.5;
     cursor: pointer;
 
@@ -204,7 +204,7 @@ footer h4::after{
     text-transform: uppercase;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #734B5E;
+    color: #49669F;
 
 	background-color: none;
 	position: relative;
@@ -226,7 +226,7 @@ footer h4::after{
     margin-top: 15px;
     padding: 0.5em;
 
-    background-color: #734B5E;
+    background-color: #49669F;
     color: white;    
     opacity:0.5;
     cursor: pointer;
@@ -234,13 +234,13 @@ footer h4::after{
 .footerButton:hover,
 .footerButton:focus{
     background-color: #EFEFEF;
-    color: #734B5E;
-    border-bottom: 0.2rem solid #734B5E;
+    color: #49669F;
+    border-bottom: 0.2rem solid #49669F;
 }
 .button:focus {
     outline: none;
     color: #fff;
-    background-color: #734B5E;
+    background-color: #49669F;
 }
 
 /*--------------------Main Page ------------------*/
@@ -297,7 +297,7 @@ footer h4::after{
 }
     .project a:hover,
     .project a:focus{
-        border-bottom: 0.2rem solid #734B5E;
+        border-bottom: 0.2rem solid #49669F;
     }
 .project p{
     font-size: 1.5rem;
@@ -331,7 +331,7 @@ footer h4::after{
 }
 .contactEmail,
 .contactEmail{
-    background-color: #734B5E;
+    background-color: #49669F;
     color: white;
     margin: 0 5px 0 0;
     padding: 0 5px;        
@@ -339,8 +339,8 @@ footer h4::after{
 .contactEmail:hover,
 .contactEmail:focus{
     background-color: #EFEFEF;
-    color: #734B5E;
-    border-bottom: 0.2rem solid #734B5E;
+    color: #49669F;
+    border-bottom: 0.2rem solid #49669F;
 }
 /* -----------------About Specific--------------- */  
 /* ---------------------------------------------- */
@@ -360,7 +360,7 @@ footer h4::after{
 }
 .aboutInfo a:hover,
 .aboutInfo a:focus{
-    border-bottom: 0.2rem solid #734B5E;
+    border-bottom: 0.2rem solid #49669F;
 }
 .skills{
     display:flex;
@@ -403,7 +403,7 @@ footer h4::after{
 }
 .projectLink a,
 .aboutInfo a{
-    background-color: #734B5E;
+    background-color: #49669F;
     color: white;
     margin: 0 5px 0 0;
     padding: 0 5px;        
@@ -411,12 +411,12 @@ footer h4::after{
 .aboutInfo a:hover,
 .aboutInfo a:focus{
     background-color: #EFEFEF;
-    color: #734B5E;
+    color: #49669F;
 }
 .projectLink a:hover,
 .projectLink a:focus{
     background-color: #fdfdfc;
-    color: #734B5E;
+    color: #49669F;
 }
 
 /*--------------------MEDIA QUERY-----------------*/
@@ -492,18 +492,18 @@ footer h4::after{
         height: 40px;
     }
     .menu a{
-        background-color: #734B5E;
+        background-color: #49669F;
         color: white;
         margin: 0 5px 0 0;        
     }   
     .menu a:hover,
     .menu a:focus{
         background-color: #EFEFEF;
-        color: #734B5E;
+        color: #49669F;
     }
     .menu #selectedMobile{
         background-color: #EFEFEF;
-        color: #734B5E;
+        color: #49669F;
     }
     .imgLanding{
         display:hi;
