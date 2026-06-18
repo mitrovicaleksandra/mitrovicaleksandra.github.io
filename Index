@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+  
+
+<title>Aleksandra Mitrovic</title>
+
+<link rel="icon" type="image/png" href="AleksandraMitrovic.png">
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="AleksandraMitrovic.png"/>
+
+<script src="https://kit.fontawesome.com/00c3f64cdc.js" crossorigin="anonymous"></script> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149666975-2"></script>
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'UA-149666975-2');
+
+</script>
+
+</head>
+
+
+
+<body>
+
+
+
+<!---- Navigation ---->
+
+
+
+<nav class="nav wrapper" id="nav">
+
+<div class="heading"> 
+
+<h1><a href="index.html">STR.</a></h1>
+
+</div> 
+
+<div class="menu">
+
+<a href="#solutions">solutions</a>
+
+<a href="#results">results</a>
+
+<a href="#about">about</a>
+
+<a href="projects.html">projects</a>
+
+<a href="contact.html">contact</a>
+
+</div>
+
+</nav>
+
+
+
+<!---- Header---->
+
+
+
+<header class="header wrapper"> 
+
+<div class="blurb">
+
+<h2>Data Intelligence.
+
+<br>System Orchestration.</br>
+
+Decision Enablement.
+
+</h2>
+
+<h3>
+
+Transforming SaaS FP&A into an Integrated Decision Engine by Bridging operational gaps through connected systems, streamlined planning, and actionable financial intelligence—enabling faster, more informed decisions at every level of the organization.
+
+<br>- driven solutions.</br>
+
+</h3> 
+
+</div>
+
+<div class="imgContainer">
+
+<img class="imgLanding" src="Mitrovic.png" alt=“Aleksandra Mitrovic”>
+
+</div>
+
+</header>
+
+
+
+<div class="scroll indexDown wrapper">
+
+<a href="#about"><i class="fas fa-angle-down"></i></a>
+
+</div>
+
+
+
+<!------- About -------> 
+
+
+
+<main>
+
+
+
+<!----About Me Section---->
+
+<section class="wrapper about" id="services">
+
+<img class="aboutPicture" src="AleksandraMitrovic.png" alt=“Aleksandra Image">
+
+<div class="aboutInfo">
+
+<h2>Hello there!</h2>
+
+<p> I believe finance should do more than explain what happened—it should shape what happens next. </p>
+
+
+
+<p> As a Strategic Finance and FP&A professional, I partner with business leaders to translate strategy into measurable financial outcomes. My role extends beyond reporting and forecasting; I work alongside Product, Engineering, Go-to-Market, and G&A teams to evaluate strategic investments, optimize resource allocation, improve planning processes, and provide the financial intelligence leaders need to make faster, more confident decisions. </p>
+
+<p> I believe the strongest finance organizations are built on partnership. By combining financial insight with a deep understanding of business operations, I help connect commercial objectives with financial strategy, ensuring decisions are grounded in both data and long-term value creation. </p>
+
+<p> My approach is driven by curiosity, analytical thinking, and a commitment to continuous improvement. I enjoy solving complex business challenges, building scalable planning processes, and identifying opportunities where finance, technology, and operations can work together more effectively. Whether developing driver-based financial models, supporting capital allocation decisions, or improving forecasting accuracy, my focus is always on enabling better business outcomes. </p>
+
+<p>My ongoing strive to learn, has brought me on the path to creating beautiful and intuitive products. Today, I continue strengthening my skills in:</p> 
+
+<ul>
+<li>Data Analytics</li> 
+
+<li>Project Management</li> 
+<li>Risk Management</li>
+
+<li>User Experience</li>
+
+
+
+
+
+</ul>
+
+
+<p>Take a look at my projects <a href="projects.html">projects</a> or <a href="contact.html" target="_blank">contact me</a> for more information.</p>
+
+<p>When I am not working on my business retail venture, I am diving deep into the intersection of Finance & Technology: FINTECH! I am also studying for the CFA level 1 exam. </p>
+
+</div> 
+
+</section> 
+
+
+
+<!---- My Skills ---->
+
+
+
+<section class="skills wrapper">
+
+<div class="skillset">
+
+<h3 class="skillType">FP&A & Financial Modeling</h3>
+<ul>
+<li>R</li>
+<li>SQL</li>
+<li>Excel VBA & Macros</li>
+</ul>
+
+
+</div>
+<div class="skillset">
+<h3 class="skillType">SaaS Metrics & Analytics</h3>
+<ul>
+<li>Agile Methodology</li>
+<li>Client Interaction</li>
+<li>Team Leading</li>
+</ul>
+</div>
+
+</div>
+<div class="skillset">
+<h3 class="skillType">System Orchestration</h3>
+<ul>
+<li>Due Diligence</li>
+<li>Scenario Analysis</li>
+<li>Econometric Forecasting</li>
+</ul>
+</div>
+
+
+
+</div>
+<div class="skillset">
+<h3 class="skillType">Strategic Advisory</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript/jQuery</li>
+</ul>
+</div>
+
+</section>
+
+    <div class="scroll wrapper">
+        <a href="#nav"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+
+<!---- Footer ---->
+
+
+
+<footer>
+
+<section class="footerContent wrapper">
+
+<div class="footerRight">
+
+<h4>Let’s Work Together</h4>
+
+<a class="footerEmail" href="mailto:mitrovicaleksandra510@gmail.com" target="_blank">mitrovicaleksandra510@gmail.com</a>
+
+<a href="contact.html" class ="footerButton">Contact Me</a>
+
+</div>
+
+<div class="footerLeft">
+
+<h4>Let's Connect</h4>
+
+<div class="footerLinks">
+
+<a href="https://www.linkedin.com/in/aleksandra-mitrovic-614229206/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+<a href="mailto:mitrovicaleksandra510@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+<p class="copyright wrapper">© 2026 Strategic FP&A Mitro</p>
+
+</footer>
+
+
+
+</body>
+
+
+
+</html> 
